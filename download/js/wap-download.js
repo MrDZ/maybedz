@@ -23,8 +23,8 @@ var u = navigator.userAgent;
 var isAndroid = u.indexOf('Android') > -1 || u.indexOf('Adr') > -1; //android终端
 var isiOS = !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/); //ios终端
 if(isAndroid){
-	url = "https://app.zhugedai.com/bandao-app/upfiles/file_jituan/apk/bdgw_online.apk";
+	url = "https://app.zhugedai.com/bandao-app/upfiles/file_sgph/Android/bdph_online.apk";
 }else if(isiOS){
-	url = "itms-services://?action=download-manifest&url=https://app.zhugedai.com/bandao-app/upfiles/file_jituan/jituanApp.plist";
+	url = "itms-services://?action=download-manifest&url=https://app.zhugedai.com/bandao-app/upfiles/file_sgph/sgphApp.plist";
 }
 $("#download").prop("href",url)

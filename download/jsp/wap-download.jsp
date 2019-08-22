@@ -18,13 +18,13 @@
 	</style>
 </head>
 <body style="background:#01ccff;text-align:center">
-<%--<div class="popMain hide">--%>
-	<%--<div class="popBg"></div>--%>
-	<%--<div class="popDiv">--%>
-		<%--<p><span>1</span>点击右上角<img src="/images/download-6.png"></p>--%>
-		<%--<p><span>2</span>选择在“浏览器中打开”</p>--%>
-	<%--</div>--%>
-<%--</div>--%>
+<<div class="popMain hide">>
+	<<div class="popBg"></div>>
+	<<div class="popDiv">>
+		<<p><span>1</span>点击右上角<img src="/images/download-6.png"></p>>
+		<<p><span>2</span>选择在“浏览器中打开”</p>>
+	<</div>>
+<</div>>
 
 <img src="/images/download-1.jpg" alt="img" class="partner-top-img"/>
 <img src="/images/download-2.jpg" alt="img" class="partner-top-img"/>
